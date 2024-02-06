@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html" charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Autonemo Shop">
+        <meta name="description" content="Dupno Shop">
 
        
         <meta name="msapplication-TileColor" content="#ffffff">
@@ -21,7 +21,7 @@
             href="https://crm.autonemo.com.bd/payment_new_page_assets/css/styleAutonemoPayment.css">
 
         <!--google fonts-->
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href='https://fonts.google.com/specimen/Bai+Jamjuree' rel='stylesheet'>
 
         <!--bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -37,8 +37,8 @@
         <div align="center">
             <!--top icon-->
             <div class="m-img-div">
-                <a href=><img class="m-img"
-                        src="https://crm.autonemo.com.bd/images/autonemo-logo.png" alt="Autonemo Shop"
+                <a href=""><img class="m-img"
+                        src="https://dupno.com/wp-content/uploads/thegem-logos/logo_c5bf0357511768113c422363415ad05e_1x.png" alt="Dupno Shop"
                         style="height: 40px"></a>
             </div>
 
@@ -48,16 +48,16 @@
 
                 <div class="row">
                     <div class="col-5 m-left-col">
-                        <p class="left-p">
-                            AUTONEMO SHOP
+                        <p class="left-p " style="color:#1c75bc">
+                            DUPNO SHOP
                         </p>
                     </div>
                     <div class="col-7 m-right-col">
                         <p class="right-p">
-                            Any Problem? Read <a href="https://www.autonemogps.com/problems-and-solutions/"
-                                style="color:#DC0E18">FAQ</a> or
-                            Email <a style="color: #b9b9b9" href="mailto:support@autonemo.io">support@autonemo.io</a> or
-                            Call <a style="color: #b9b9b9" href="tel:+8809606882288">+8809606882288</a> for Help! <br>
+                            Any Problem? Read <a href="https://dupno.com/contact-us/"
+                                style="color:#1c75bc">FAQ</a> or
+                            Email <a style="color: #1c75bc" href="support@dupno.com">support@dupno.com</a> or
+                            Call <a style="color: #1c75bc" href="tel:+8801885004000">+8801885004000</a> for Help! <br>
                         </p>
                     </div>
                 </div>
@@ -79,8 +79,8 @@
 
                         <!--amount-->
                         <div class="form-group col-md-6">
-                            <label class="m-title" for="amount">Amount (TK)</label>
-                            <input type="number" name="amount" required class="m-input" id="amount" value="0" min="10">
+                            <label class="m-title" for="amount" style="border-color: #1c75bc;">Amount (TK)</label>
+                            <input type="number" name="amount" required class="m-input" id="amount" value="0" min="10" style="border-color: #1c75bc>
                             <span id="amount_error" class="text-danger"
                                 style="padding-left: 5px;display: none; font-size: 12px;">Minimum amount is 10</span>
                         </div>
@@ -122,17 +122,17 @@
                         <br>
 
                         <input type="checkbox" id="agree" name="agree" required> I read and agree to the <a
-                            style="color: #DC0E18; font-size:15px;" target="_blank"
+                            style="color: #1c75bc; font-size:15px;" target="_blank"
                             href="https://www.autonemogps.com/tc/">Terms &amp; Conditions </a>, <a
-                            style="color: #DC0E18; font-size:15px" target="_blank"
+                            style="color: #1c75bc; font-size:15px" target="_blank"
                             href="https://autonemogps.com/privacy-policy/">Privacy Policy</a> and <a
-                            style="color: #DC0E18; font-size:15px" target="_blank"
+                            style="color: #1c75bc; font-size:15px" target="_blank"
                             href="https://autonemogps.com/return-and-refund-policy/">Return Refund Policy</a>
                         <br>
                     </div>
 
-                    <button type="submit" id="make_payment" class="btn mt-3 w-100" disabled
-                        style="background-color:#DC0E18; color: #ffffff">Make Payment
+                    <button type="submit" id="make_payment" class="btn btn-outline btn-error mt-3 w-100" 
+                        style="background-color:#e65125; color: #ffffff">Make Payment
                     </button>
                 </form>
 
@@ -190,7 +190,7 @@
 
             .plan label {
                 position: relative;
-                color: #fff;
+                color: #1464be;
                 /*background-color: #aaa;*/
                 font-size: 13px;
                 text-align: center;
@@ -198,7 +198,7 @@
                 /*line-height: 40px;*/
                 display: block;
                 cursor: pointer;
-                border: 1px rgba(218, 214, 216, 1) solid;
+                border: 1px #1464be solid;
                 -webkit-box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 box-sizing: border-box;
@@ -209,7 +209,7 @@
             .plan input:checked+label,
             input:checked+label,
             input:checked+label {
-                border: 2px solid #e03e2d;
+                border: 2px solid #1c75bc;
                 border-radius: 5px;
             }
 
@@ -221,7 +221,7 @@
                 height: 20px;
                 line-height: 20px;
                 border-radius: 5px;
-                border: 2px solid #e03e2d;
+                border: 2px solid #1c75bc;
                 z-index: 999;
                 position: absolute;
                 top: -10px;
@@ -315,7 +315,7 @@
                 //to get payment token value
                 function getPaymentToken() {
                     $.ajax({
-                        url: 'https://crm.autonemo.com.bd/payment/payment-token',
+                        url: '',
                         headers: {
                             'X-CSRF-TOKEN': 'LWT4bLHGSwoIAwHlwESC12L1AeBlFrDNAcPsSuMO'
                         },
@@ -339,7 +339,7 @@
                 // Get bKash token
                 function getBkashToken() {
                     $.ajax({
-                        url: 'https://crm.autonemo.com.bd/payment/bkash/token',
+                        url: '',
                         headers: {
                             'X-CSRF-TOKEN': 'LWT4bLHGSwoIAwHlwESC12L1AeBlFrDNAcPsSuMO'
                         },
@@ -431,7 +431,7 @@
                     obj.ClientId = $('#client_id').val();
                     obj.InvoiceId = $('#invoice_id').val();
                     obj.GW = gw;
-                    window.location = 'https://crm.autonemo.com.bd/payment/checkout/hosted' + '?' + jQuery.param(obj);
+                    window.location = '' + '?' + jQuery.param(obj);
                 }
 
                 function initiateBkashPayment(e) {
@@ -451,7 +451,7 @@
                     obj.ClientId = $('#client_id').val();
                     obj.InvoiceId = $('#invoice_id').val();
                     obj.GW = gw;
-                    window.location = 'https://crm.autonemo.com.bd/payment/bkash/new-order' + '?' + jQuery.param(obj);
+                    window.location = '' + '?' + jQuery.param(obj);
                 }
 
                 function nagad() {
