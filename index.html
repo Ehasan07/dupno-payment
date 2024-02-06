@@ -1,461 +1,457 @@
-<<!DOCTYPE html>
-    <html xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
 
-    <head>
-        <meta http-equiv="content-type" content="text/html" charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Dupno Shop">
-
-
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dupno Shop">
 
 
-        <link rel="icon" href="https://dupno.com/wp-content/uploads/2019/10/fabicon-dupno.png" type="image/png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 
-        <title>Payment | Dupno Shop</title>
-        <!-- custom css -->
-        <link rel="stylesheet" type="text/css"
-            href="styale.css">
+    <link rel="icon" href="https://dupno.com/wp-content/uploads/2019/10/fabicon-dupno.png" type="image/png">
 
-        <!--google fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
 
-        <!--bootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
+    <title>Payment | Dupno Shop</title>
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="styale.css">
 
-    </head>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
 
-    <body class="m-body">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
-        <div align="center">
-            <!--top icon-->
-            <div class="m-img-div">
-                <a href="https://dupno.com/"><img class="m-img"
-                        src="Dupno-logo.jpeg"
-                        alt="Dupno Shop" style="height: 50px"></a>
+</head>
+
+<body class="m-body">
+
+    <div align="center">
+        <!--top icon-->
+        <div class="m-img-div">
+            <a href="https://dupno.com/"><img class="m-img" src="Dupno-logo.jpeg" alt="Dupno Shop"
+                    style="height: 50px"></a>
+        </div>
+
+        <!--main container-->
+        <div class="m-content-div mt-2 mb-5" align="start">
+
+
+            <div class="row">
+                <div class="col-5 m-left-col">
+
+                    <p class="left-p " style="color:#1c75bc">
+                        DUPNO <span style="color: #e65125;">PAYMENT PORTAL</span>
+                    </p>
+
+                </div>
+                <div class="col-7 m-right-col">
+                    <p class="right-p" style="color: #3e3e40;">
+                        Any Problem? Read <a href="https://dupno.com/contact-us/" style="color:#1c75bc">FAQ</a> or
+                        Email <a style="color: #1c75bc" href="support@dupno.com">support@dupno.com</a> or
+                        Call <a style="color: #1c75bc" href="tel:+8801885004000">+8801885004000</a> for Help! <br>
+                    </p>
+                </div>
             </div>
 
-            <!--main container-->
-            <div class="m-content-div mt-2 mb-5" align="start">
+            <!--form-->
+            <form style="margin-top: 20px;">
 
 
-                <div class="row">
-                    <div class="col-5 m-left-col">
-                        <a href="https://dupno.com/">
-                            <p class="left-p " style="color:#1c75bc">
-                                DUPNO <span style="color: #e65125;">SHOP</span>
-                            </p>
-                        </a>
+
+                <div class="row Regular 400">
+                    <div class="form-group col-md-6">
+                        <label class="m-title " for="phone">Mobile Number</label>
+                        <input id="phone" type="tel" name="phone" required class="m-input" placeholder="01xxxxxxxx"
+                            value="">
+                        <span id="phone_error" class="text-danger"
+                            style="padding-left: 5px;display: none; font-size: 12px;">Please enter a valid phone
+                            number</span>
                     </div>
-                    <div class="col-7 m-right-col">
-                        <p class="right-p" style="color: #3e3e40;">
-                            Any Problem? Read <a href="https://dupno.com/contact-us/" style="color:#1c75bc">FAQ</a> or
-                            Email <a style="color: #1c75bc" href="support@dupno.com">support@dupno.com</a> or
-                            Call <a style="color: #1c75bc" href="tel:+8801885004000">+8801885004000</a> for Help! <br>
-                        </p>
+
+                    <!--amount-->
+                    <div class="form-group col-md-6">
+                        <label class="m-title" for="amount" style="border-color: #1c75bc;">Amount (TK)</label>
+                        <input type="number" name="amount" required class="m-input" id="amount" value="0" min="10"
+                            style="border-color: #1c75bc>
+                            <span id=" amount_error" class="text-danger"
+                            style="padding-left: 5px;display: none; font-size: 8px;">Minimum amount is 10</span>
                     </div>
                 </div>
 
-                <!--form-->
-                <form style="margin-top: 20px;">
+                <!--purpose of payment-->
+                <div class="form-group Regular 400">
+                    <label class="m-title " for="remarks" style="color: rgb(0, 0, 0);">Vehicle /Invoice/ Referance
+                        ID Number</label>
+                    <input id="remarks" type="text" name="remarks" class="m-input" value=" ">
+                </div>
 
+                <!--payment method-->
 
+                <!--terms and conditions-->
+                <div class="mt-3" align="center">
+                    <br>
 
-                    <div class="row Regular 400">
-                        <div class="form-group col-md-6">
-                            <label class="m-title " for="phone">Mobile Number</label>
-                            <input id="phone" type="tel" name="phone" required class="m-input" placeholder="01xxxxxxxx"
-                                value="">
-                            <span id="phone_error" class="text-danger"
-                                style="padding-left: 5px;display: none; font-size: 12px;">Please enter a valid phone
-                                number</span>
-                        </div>
+                    <input type="checkbox" id="agree" name="agree" required> I read and agree to the <a
+                        style="color: #1c75bc; font-size:15px;" target="_blank"
+                        href="https://dupno.com/terms-conditions/#1591188447489-91073ddb-3c2e">Terms &amp; Conditions
+                    </a>, <a style="color: #1c75bc; font-size:15px" target="_blank"
+                        href="https://dupno.com/terms-conditions/#1591174421744-9cd74061-0738">Privacy Policy</a> and <a
+                        style="color: #1c75bc; font-size:15px" target="_blank"
+                        href="https://dupno.com/terms-conditions/#1591200751338-c8633b1c-5e88">Return Refund Policy</a>
+                    <br>
+                </div>
 
-                        <!--amount-->
-                        <div class="form-group col-md-6">
-                            <label class="m-title" for="amount" style="border-color: #1c75bc;">Amount (TK)</label>
-                            <input type="number" name="amount" required class="m-input" id="amount" value="0" min="10"
-                                style="border-color: #1c75bc>
-                            <span id=" amount_error" class="text-danger"
-                                style="padding-left: 5px;display: none; font-size: 8px;">Minimum amount is 10</span>
-                        </div>
-                    </div>
+                <button type="submit" id="make_payment" class="btn btn-outline btn-error mt-3 w-100"
+                    style="background-color:#e65125; color: #f0ebeb">Make Payment
+                </button>
+            </form>
 
-                    <!--purpose of payment-->
-                    <div class="form-group Regular 400">
-                        <label class="m-title " for="remarks" style="color: rgb(0, 0, 0);">Vehicle /Invoice/ Referance
-                            ID Number</label>
-                        <input id="remarks" type="text" name="remarks" class="m-input" value=" ">
-                    </div>
-
-                    <!--payment method-->
-
-                    <!--terms and conditions-->
-                    <div class="mt-3" align="center">
-                        <br>
-
-                        <input type="checkbox" id="agree" name="agree" required> I read and agree to the <a
-                            style="color: #1c75bc; font-size:15px;" target="_blank"
-                            href="https://dupno.com/terms-conditions/#1591188447489-91073ddb-3c2e">Terms &amp; Conditions </a>, <a
-                            style="color: #1c75bc; font-size:15px" target="_blank"
-                            href="https://dupno.com/terms-conditions/#1591174421744-9cd74061-0738">Privacy Policy</a> and <a
-                            style="color: #1c75bc; font-size:15px" target="_blank"
-                            href="https://dupno.com/terms-conditions/#1591200751338-c8633b1c-5e88">Return Refund Policy</a>
-                        <br>
-                    </div>
-
-                    <button type="submit" id="make_payment" class="btn btn-outline btn-error mt-3 w-100"
-                        style="background-color:#e65125; color: #f0ebeb">Make Payment
-                    </button>
-                </form>
-
-                <a href="#" id="bKash_button" style="display: none">bKash</a>
-
-            </div>
-
+            <a href="#" id="bKash_button" style="display: none">bKash</a>
 
         </div>
-        <style>
-            /* CONTAINERS */
 
-            .four {
-                /*width: 32.26%;*/
-                /*max-width: 32.26%;*/
-                width: 49% !important;
-                display: flex !important;
-                justify-content: center !important;
-                align-items: center !important;
+
+    </div>
+    <style>
+        /* CONTAINERS */
+
+        .four {
+            /*width: 32.26%;*/
+            /*max-width: 32.26%;*/
+            width: 49% !important;
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        /* COLUMNS */
+
+        .col {
+            display: block;
+            float: left;
+            margin: 1% 0 1% 1.6%;
+            border-color: #1464be;
+        }
+
+        .col:first-of-type {
+            margin-left: 0;
+        }
+
+        /* CLEARFIX */
+
+        .cf:before,
+        .cf:after {
+            content: " ";
+            display: table;
+        }
+
+        .cf:after {
+            clear: both;
+        }
+
+        .cf {
+            *zoom: 1;
+        }
+
+        /* FORM */
+
+        .plan input {
+            display: none;
+        }
+
+        .plan label {
+            position: relative;
+            color: #1464be;
+            /*background-color: #aaa;*/
+            font-size: 13px;
+            text-align: center;
+            height: 47px;
+            /*line-height: 40px;*/
+            display: block;
+            cursor: pointer;
+            border: 1px #1464be solid;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: 'Bai Jamjuree', sans-serif;
+
+        }
+
+        .plan input:checked+label,
+        input:checked+label,
+        input:checked+label {
+            border: 2px solid #1c75bc;
+            border-radius: 5px;
+        }
+
+        .plan input:checked+label:after,
+        input:checked+label:after,
+        input:checked+label:after {
+            /*content: "\2713";*/
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 5px;
+            border: 2px solid #1c75bc;
+            z-index: 999;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // $('.spinner').show();
+        var accessToken = '';
+        var paymentToken = '';
+        var payAmount = '';
+        var tapAccessToken = '';
+
+
+        function checkNumber(number) {
+            $('#phone_error').hide();
+            let valid;
+            if (number.length < 11 || number.length > 11) {
+                $('#phone_error').show();
+                this.focus();
+                valid = false;
+                return false;
+            } else {
+                valid = true;
             }
+            return valid;
+        }
 
-            /* COLUMNS */
+        $(document).ready(function () {
 
-            .col {
-                display: block;
-                float: left;
-                margin: 1% 0 1% 1.6%;
-                border-color: #1464be;
-            }
-
-            .col:first-of-type {
-                margin-left: 0;
-            }
-
-            /* CLEARFIX */
-
-            .cf:before,
-            .cf:after {
-                content: " ";
-                display: table;
-            }
-
-            .cf:after {
-                clear: both;
-            }
-
-            .cf {
-                *zoom: 1;
-            }
-
-            /* FORM */
-
-            .plan input {
-                display: none;
-            }
-
-            .plan label {
-                position: relative;
-                color: #1464be;
-                /*background-color: #aaa;*/
-                font-size: 13px;
-                text-align: center;
-                height: 47px;
-                /*line-height: 40px;*/
-                display: block;
-                cursor: pointer;
-                border: 1px #1464be solid;
-                -webkit-box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                box-sizing: border-box;
-                border-radius: 5px;
-                font-family: 'Bai Jamjuree', sans-serif;
-
-            }
-
-            .plan input:checked+label,
-            input:checked+label,
-            input:checked+label {
-                border: 2px solid #1c75bc;
-                border-radius: 5px;
-            }
-
-            .plan input:checked+label:after,
-            input:checked+label:after,
-            input:checked+label:after {
-                /*content: "\2713";*/
-                width: 20px;
-                height: 20px;
-                line-height: 20px;
-                border-radius: 5px;
-                border: 2px solid #1c75bc;
-                z-index: 999;
-                position: absolute;
-                top: -10px;
-                right: -10px;
-            }
-        </style>
-
-        <script type="text/javascript">
-            // $('.spinner').show();
-            var accessToken = '';
-            var paymentToken = '';
-            var payAmount = '';
-            var tapAccessToken = '';
+            // setTimeout(function () {
+            $('.spinner').hide();
+            // }, 3000);
 
 
-            function checkNumber(number) {
-                $('#phone_error').hide();
-                let valid;
-                if (number.length < 11 || number.length > 11) {
-                    $('#phone_error').show();
-                    this.focus();
-                    valid = false;
-                    return false;
+            $("#agree").change(function () {
+                if ($(this).prop('checked')) {
+                    $("#make_payment").prop("disabled", false);
                 } else {
-                    valid = true;
+                    $("#make_payment").prop("disabled", true);
                 }
-                return valid;
-            }
-
-            $(document).ready(function () {
-
-                // setTimeout(function () {
-                $('.spinner').hide();
-                // }, 3000);
+            });
 
 
-                $("#agree").change(function () {
-                    if ($(this).prop('checked')) {
-                        $("#make_payment").prop("disabled", false);
-                    } else {
-                        $("#make_payment").prop("disabled", true);
-                    }
-                });
+            function validateFrom() {
+                $('#phone_error').hide();
+                var valid = true;
+                $(':input[required]').each(function () {
 
-
-                function validateFrom() {
-                    $('#phone_error').hide();
-                    var valid = true;
-                    $(':input[required]').each(function () {
-
-                        if ($(this).attr('name') == 'phone') {
-                            if (this.value.length < 11 || this.value.length > 11) {
-                                // alert('low length');
-                                $('#phone_error').show();
-                                // $(this).prev('h6').addClass('text-danger jumbotron_text');
-                                this.focus();
-                                valid = false;
-                                // alert($('#phone').val());
-                                checkNumber($('#phone').val());
-                                return false;
-                            } else {
-                                valid = true;
-                            }
-                        } else if ($(this).attr('name') == 'amount') {
-                            $('#amount_error').hide();
-                            if (this.value < 1) {
-                                $('#amount_error').show();
-                                this.focus();
-                                valid = false;
-                                return false;
-
-                            } else {
-                                valid = true;
-                            }
-                        } else if ($(this).val() == '') {
+                    if ($(this).attr('name') == 'phone') {
+                        if (this.value.length < 11 || this.value.length > 11) {
+                            // alert('low length');
+                            $('#phone_error').show();
+                            // $(this).prev('h6').addClass('text-danger jumbotron_text');
                             this.focus();
-                            //Has Empty Required field
-                            var previousHeader = $(this).prev('h6');
-                            previousHeader.addClass('text-danger jumbotron_text');
                             valid = false;
-
+                            // alert($('#phone').val());
+                            checkNumber($('#phone').val());
                             return false;
                         } else {
                             valid = true;
                         }
+                    } else if ($(this).attr('name') == 'amount') {
+                        $('#amount_error').hide();
+                        if (this.value < 1) {
+                            $('#amount_error').show();
+                            this.focus();
+                            valid = false;
+                            return false;
 
-                    });
-                    return valid;
-                }
-
-                //to get payment token value
-                function getPaymentToken() {
-                    $.ajax({
-                        url: '',
-                        headers: {
-                            'X-CSRF-TOKEN': 'LWT4bLHGSwoIAwHlwESC12L1AeBlFrDNAcPsSuMO'
-                        },
-                        type: 'POST',
-                        contentType: 'application/json',
-                        success: function (data) {
-                            paymentToken = data.paymentToken;
-                            $('input[name=payment_token]').val(paymentToken);
-                        },
-                        error: function (xhr, status, error) {
-                            var err = eval("(" + xhr.responseText + ")");
-                            // alert('Payment Token Couldn\'t be generated: ' + err.Message);
-                            Swal.fire(err.Message, 'Payment Token Couldn\'t be generated', "error");
+                        } else {
+                            valid = true;
                         }
-                    });
-                }
+                    } else if ($(this).val() == '') {
+                        this.focus();
+                        //Has Empty Required field
+                        var previousHeader = $(this).prev('h6');
+                        previousHeader.addClass('text-danger jumbotron_text');
+                        valid = false;
 
-                getPaymentToken();
-
-
-                // Get bKash token
-                function getBkashToken() {
-                    $.ajax({
-                        url: '',
-                        headers: {
-                            'X-CSRF-TOKEN': 'LWT4bLHGSwoIAwHlwESC12L1AeBlFrDNAcPsSuMO'
-                        },
-                        type: 'POST',
-                        contentType: 'application/json',
-                        success: function (data) {
-                            accessToken = data.bkashToken;
-                        },
-                        error: function (xhr, status, error) {
-                            const err = eval("(" + xhr.responseText + ")");
-                            Swal.fire(err.Message, 'bKash Access Token Couldn\'t be generated', "error");
-                        }
-                    });
-                }
-
-                getBkashToken();
-
-                //Restrict Phone number input to specific characters, and Amount
-                $("input[name=phone]").on('change input blur keyup paste', function () {
-                    $(this).val(function (i, v) {
-                        return v.replace(/[^0-9]/ig, '');
-                    });
-                });
-
-                $("input[name=amount]").on('change input blur keyup paste', function () {
-                    // alert('ss');
-                    $(this).val(function (i, v) {
-                        return v.replace(/[^0-9]/ig, '');
-                    });
-                    if ($("input[name=amount]").val() > 0) {
-                        $("#makePaymentButtonText").html('Pay ' + $("input[name=amount]").val() + ' BDT ➜')
+                        return false;
                     } else {
-                        $("#makePaymentButtonText").text('Make Payment ➜');
+                        valid = true;
                     }
 
                 });
+                return valid;
+            }
 
-                $("input[name=amount]").trigger('change');
-
-                $("input[name=remarks]").on('change input blur keyup paste', function () {
-                    //Sync hidden bKash payment_for with remarks field
-                    $("input[name=payment_for]").val($(this).val());
-                });
-
-                //on click make payment button
-                $('#make_payment').on('click', function (e) {
-                    e.preventDefault();
-                    if (validateFrom() === true) {
-                        let gw = $('input[name=gw]:checked').val();
-
-                        if (gw === 'nagad') {
-                            nagad();
-                        } else if (gw === 'bkash') {
-                            initiateBkashPayment();
-                        } else if (gw === 'sslCommerz') {
-                            initiateSslCommerzPayment()
-                        }
-                        // else {
-                        //     initiateSslCommerzPayment();
-                        // }
+            //to get payment token value
+            function getPaymentToken() {
+                $.ajax({
+                    url: '',
+                    headers: {
+                        'X-CSRF-TOKEN': 'LWT4bLHGSwoIAwHlwESC12L1AeBlFrDNAcPsSuMO'
+                    },
+                    type: 'POST',
+                    contentType: 'application/json',
+                    success: function (data) {
+                        paymentToken = data.paymentToken;
+                        $('input[name=payment_token]').val(paymentToken);
+                    },
+                    error: function (xhr, status, error) {
+                        var err = eval("(" + xhr.responseText + ")");
+                        // alert('Payment Token Couldn\'t be generated: ' + err.Message);
+                        Swal.fire(err.Message, 'Payment Token Couldn\'t be generated', "error");
                     }
-
                 });
+            }
 
-                function getRandomString(length) {
-                    const randomChars = '0123456789';
-                    let result = '';
-                    for (let i = 0; i < length; i++) {
-                        result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
+            getPaymentToken();
+
+
+            // Get bKash token
+            function getBkashToken() {
+                $.ajax({
+                    url: '',
+                    headers: {
+                        'X-CSRF-TOKEN': 'LWT4bLHGSwoIAwHlwESC12L1AeBlFrDNAcPsSuMO'
+                    },
+                    type: 'POST',
+                    contentType: 'application/json',
+                    success: function (data) {
+                        accessToken = data.bkashToken;
+                    },
+                    error: function (xhr, status, error) {
+                        const err = eval("(" + xhr.responseText + ")");
+                        Swal.fire(err.Message, 'bKash Access Token Couldn\'t be generated', "error");
                     }
-                    return result;
+                });
+            }
+
+            getBkashToken();
+
+            //Restrict Phone number input to specific characters, and Amount
+            $("input[name=phone]").on('change input blur keyup paste', function () {
+                $(this).val(function (i, v) {
+                    return v.replace(/[^0-9]/ig, '');
+                });
+            });
+
+            $("input[name=amount]").on('change input blur keyup paste', function () {
+                // alert('ss');
+                $(this).val(function (i, v) {
+                    return v.replace(/[^0-9]/ig, '');
+                });
+                if ($("input[name=amount]").val() > 0) {
+                    $("#makePaymentButtonText").html('Pay ' + $("input[name=amount]").val() + ' BDT ➜')
+                } else {
+                    $("#makePaymentButtonText").text('Make Payment ➜');
                 }
 
+            });
 
-                //Initiate SSLCom Payment
-                function initiateSslCommerzPayment(e) {
-                    const gw = '';
-                    const obj = {};
-                    obj.PlatformUsername = $('#platform_username').val();
-                    obj.PaymentFor = $('#payment_for').val();
-                    obj.CarRegNumber = $('#car_reg_number').val();
-                    obj.Remarks = $('#remarks').val();
-                    obj.CustomerName = $('#name').val();
-                    obj.CustomerPhone = $('#phone').val();
-                    obj.CustomerEmail = $('#email').val();
-                    obj.CustomerAddress1 = $('#address').val();
-                    obj.PaymentAmount = $('#amount').val();
-                    obj.PaymentToken = $('input[name=payment_token]').val();
-                    obj.ClientId = $('#client_id').val();
-                    obj.InvoiceId = $('#invoice_id').val();
-                    obj.GW = gw;
-                    window.location = '' + '?' + jQuery.param(obj);
+            $("input[name=amount]").trigger('change');
+
+            $("input[name=remarks]").on('change input blur keyup paste', function () {
+                //Sync hidden bKash payment_for with remarks field
+                $("input[name=payment_for]").val($(this).val());
+            });
+
+            //on click make payment button
+            $('#make_payment').on('click', function (e) {
+                e.preventDefault();
+                if (validateFrom() === true) {
+                    let gw = $('input[name=gw]:checked').val();
+
+                    if (gw === 'nagad') {
+                        nagad();
+                    } else if (gw === 'bkash') {
+                        initiateBkashPayment();
+                    } else if (gw === 'sslCommerz') {
+                        initiateSslCommerzPayment()
+                    }
+                    // else {
+                    //     initiateSslCommerzPayment();
+                    // }
                 }
 
-                function initiateBkashPayment(e) {
-                    const gw = '';
-                    const obj = {};
-                    obj.PlatformUsername = $('#platform_username').val();
-                    obj.PaymentFor = $('#payment_for').val();
-                    obj.CarRegNumber = $('#car_reg_number').val();
-                    obj.Remarks = $('#remarks').val();
-                    obj.CustomerName = $('#name').val();
-                    obj.CustomerPhone = $('#phone').val();
-                    obj.CustomerEmail = $('#email').val();
-                    obj.CustomerAddress1 = $('#address').val();
-                    obj.PaymentAmount = $('#amount').val();
-                    obj.PaymentToken = $('input[name=payment_token]').val();
-                    obj.token = $('input[name=payment_token]').val();
-                    obj.ClientId = $('#client_id').val();
-                    obj.InvoiceId = $('#invoice_id').val();
-                    obj.GW = gw;
-                    window.location = '' + '?' + jQuery.param(obj);
+            });
+
+            function getRandomString(length) {
+                const randomChars = '0123456789';
+                let result = '';
+                for (let i = 0; i < length; i++) {
+                    result += randomChars.charAt(Math.floor(Math.random() * randomChars.length));
                 }
-
-                function nagad() {
-                    const nagadCustomData = {
-                        amount: $('#amount').val(),
-                        phone: $('#phone').val(),
-                        email: $('#email').val(),
-                        name: $('#name').val(),
-                        platform_username: $('#platform_username').val(),
-                        payment_for: $('#payment_for').val(),
-                        car_reg_number: $('#car_reg_number').val(),
-                        remarks: $('#remarks').val(),
-                        address: $('#address').val(),
-                        client_id: $('#client_id').val(),
-                        invoice_id: $('#invoice_id').val(),
-                    };
-                    window.location = "/payment/nagad?" + jQuery.param(nagadCustomData);
-                }
+                return result;
+            }
 
 
+            //Initiate SSLCom Payment
+            function initiateSslCommerzPayment(e) {
+                const gw = '';
+                const obj = {};
+                obj.PlatformUsername = $('#platform_username').val();
+                obj.PaymentFor = $('#payment_for').val();
+                obj.CarRegNumber = $('#car_reg_number').val();
+                obj.Remarks = $('#remarks').val();
+                obj.CustomerName = $('#name').val();
+                obj.CustomerPhone = $('#phone').val();
+                obj.CustomerEmail = $('#email').val();
+                obj.CustomerAddress1 = $('#address').val();
+                obj.PaymentAmount = $('#amount').val();
+                obj.PaymentToken = $('input[name=payment_token]').val();
+                obj.ClientId = $('#client_id').val();
+                obj.InvoiceId = $('#invoice_id').val();
+                obj.GW = gw;
+                window.location = '' + '?' + jQuery.param(obj);
+            }
+
+            function initiateBkashPayment(e) {
+                const gw = '';
+                const obj = {};
+                obj.PlatformUsername = $('#platform_username').val();
+                obj.PaymentFor = $('#payment_for').val();
+                obj.CarRegNumber = $('#car_reg_number').val();
+                obj.Remarks = $('#remarks').val();
+                obj.CustomerName = $('#name').val();
+                obj.CustomerPhone = $('#phone').val();
+                obj.CustomerEmail = $('#email').val();
+                obj.CustomerAddress1 = $('#address').val();
+                obj.PaymentAmount = $('#amount').val();
+                obj.PaymentToken = $('input[name=payment_token]').val();
+                obj.token = $('input[name=payment_token]').val();
+                obj.ClientId = $('#client_id').val();
+                obj.InvoiceId = $('#invoice_id').val();
+                obj.GW = gw;
+                window.location = '' + '?' + jQuery.param(obj);
+            }
+
+            function nagad() {
+                const nagadCustomData = {
+                    amount: $('#amount').val(),
+                    phone: $('#phone').val(),
+                    email: $('#email').val(),
+                    name: $('#name').val(),
+                    platform_username: $('#platform_username').val(),
+                    payment_for: $('#payment_for').val(),
+                    car_reg_number: $('#car_reg_number').val(),
+                    remarks: $('#remarks').val(),
+                    address: $('#address').val(),
+                    client_id: $('#client_id').val(),
+                    invoice_id: $('#invoice_id').val(),
+                };
+                window.location = "/payment/nagad?" + jQuery.param(nagadCustomData);
+            }
 
 
 
@@ -475,10 +471,12 @@
 
 
 
-            })
 
-        </script>
 
-    </body>
+        })
 
-    </html>
+    </script>
+
+</body>
+
+</html>
