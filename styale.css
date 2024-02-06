@@ -1,6 +1,6 @@
 .m-body{
-    font-family: 'Poppins';
-    color: #1C1C1C;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #000000;
 }
 
 .m-img-div{
@@ -8,7 +8,7 @@
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background: white;
+    background: rgb(255, 255, 255);
     opacity: 1.0;
     z-index: 10;
 }
@@ -22,7 +22,7 @@
 
     padding: 20px 20px;
 
-    border: 1px solid #C9C9C9;
+    border: 1px solid #1c75bc;
     border-radius: 10px;
 }
 
@@ -49,7 +49,7 @@
 
 .m-right-col{
     text-align: right;
-    color: #B9B9B9;
+    color: #1c75bc;
     font-size: 12px;
     margin: 0px;
     padding: 0px;
@@ -62,7 +62,7 @@
 }
 
 .m-input{
-    background: #F1F1F1;
+    background: #d6daea;
     width: 100%;
     border: none;
     padding: 10px;
@@ -73,18 +73,18 @@ input:focus, textarea:focus, select:focus{
     outline: none;
 }
 .m-input:focus{
-    border: 1px #DC0E18 solid;
+    border: 1px #1c75bc solid;
 }
 
 .m-offer-div{
     width: 47%;
-    border: 1px #CECECE solid;
+    border: 1px #1c75bc solid;
     border-radius: 5px;
     padding: 10px;
 }
 
 .m-offer-div:hover, .m-offer-div.active{
-    border: 2px #DC0E18 solid;
+    border: 2px #1c75bc;
 }
 
 .m-offer-div span{
@@ -95,8 +95,8 @@ input:focus, textarea:focus, select:focus{
     display: inline-block;
     padding: 2px;
     width: 45px;
-    color:white;
-    background-color: #DC0E18;
+    color:#1c75bc;
+    background-color: #1c75bc;
     border-radius: 5px;
     text-align: center;
 }
@@ -111,7 +111,7 @@ input:focus, textarea:focus, select:focus{
 
 .m-offer-div small{
     text-decoration: line-through;
-    color: #868686;
+    color: #1c75bc;
 }
 
 
@@ -138,17 +138,17 @@ input:focus, textarea:focus, select:focus{
     height: 16px;
     border-radius: 50%;
     transition: 0.2s;
-    box-shadow: inset 0 0 0 8px #fff;
+    box-shadow: inset 0 0 0 8px #1c75bc;
     border: 1px solid gray;
     background: gray;
 }
 .rad:hover > i{ /* HOVER <i> STYLE */
-    box-shadow: inset 0 0 0 3px #fff;
+    box-shadow: inset 0 0 0 3px #1c75bc;
     background: gray;
 }
 .rad > input:checked + i{ /* (RADIO CHECKED) <i> STYLE */
-    box-shadow: inset 0 0 0 2px #fff;
-    background: #DC0E18;
+    box-shadow: inset 0 0 0 2px #1c75bc;
+    background: #1c75bc;
 }
 
 
@@ -177,7 +177,7 @@ input[value="invoiceCheck"]:checked ~ div[id="invoiceEmailBox"]{
     color: #9E9E9E;
 }
 .m-others-item-text{
-    color: #DC0E18;
+    color: #1c75bc;
     font-size: 14px;
 }
 .m-others-item-text:hover{
@@ -232,7 +232,7 @@ input[value="invoiceCheck"]:checked ~ div[id="invoiceEmailBox"]{
 }
 
 .m-easyhaat-div{
-    border: 2px #DC0E18 solid;
+    border: 2px #1c75bc solid;
     border-radius: 5px;
     padding: 8px;
     padding-left: 25px;
@@ -241,7 +241,7 @@ input[value="invoiceCheck"]:checked ~ div[id="invoiceEmailBox"]{
 
 .survey-div{
     font-size: 14px;
-    max-width: 900px; background: #F2F2F2; display:flex; align-items:center;
+    max-width: 900px; background: #1c75bc; display:flex; align-items:center;
 }
 .survey-link-div{
     padding: 7px;
@@ -254,9 +254,9 @@ input[value="invoiceCheck"]:checked ~ div[id="invoiceEmailBox"]{
 .footer-link-div{
     height: 40px;
     width: 40px;
-    border: 1px #DC0E18 solid;
+    border: 1px #1c75bc solid;
     border-radius: 5px;
-    color: #DC0E18;
+    color: #1c75bc;
     display:flex;
     align-items:center;
     font-size: 20px;
