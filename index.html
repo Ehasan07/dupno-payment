@@ -1,19 +1,19 @@
 <<!DOCTYPE html>
-    <html  xml:lang="en" lang="en">
+    <html xml:lang="en" lang="en">
 
     <head>
         <meta http-equiv="content-type" content="text/html" charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Dupno Shop">
 
-       
+
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
-        
 
-        
+
+
 
         <title>Payment | Dupno Shop</title>
         <!-- custom css -->
@@ -21,7 +21,15 @@
             href="https://crm.autonemo.com.bd/payment_new_page_assets/css/styleAutonemoPayment.css">
 
         <!--google fonts-->
-        <link href='https://fonts.google.com/specimen/Bai+Jamjuree' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400&display=swap" rel="stylesheet">
 
         <!--bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -37,9 +45,9 @@
         <div align="center">
             <!--top icon-->
             <div class="m-img-div">
-                <a href=""><img class="m-img"
-                        src="https://dupno.com/wp-content/uploads/thegem-logos/logo_c5bf0357511768113c422363415ad05e_1x.png" alt="Dupno Shop"
-                        style="height: 75px"></a>
+                <a href="https://dupno.com/"><img class="m-img"
+                        src="https://dupno.com/wp-content/uploads/thegem-logos/logo_c5bf0357511768113c422363415ad05e_1x.png"
+                        alt="Dupno Shop" style="height: 100px"></a>
             </div>
 
             <!--main container-->
@@ -48,14 +56,15 @@
 
                 <div class="row">
                     <div class="col-5 m-left-col">
-                        <p class="left-p " style="color:#1c75bc">
-                            DUPNO SHOP
-                        </p>
+                        <a href="https://dupno.com/">
+                            <p class="left-p " style="color:#1c75bc">
+                                DUPNO SHOP
+                            </p>
+                        </a>
                     </div>
                     <div class="col-7 m-right-col">
-                        <p class="right-p">
-                            Any Problem? Read <a href="https://dupno.com/contact-us/"
-                                style="color:#1c75bc">FAQ</a> or
+                        <p class="right-p" style="color: #252529;">
+                            Any Problem? Read <a href="https://dupno.com/contact-us/" style="color:#1c75bc">FAQ</a> or
                             Email <a style="color: #1c75bc" href="support@dupno.com">support@dupno.com</a> or
                             Call <a style="color: #1c75bc" href="tel:+8801885004000">+8801885004000</a> for Help! <br>
                         </p>
@@ -67,9 +76,9 @@
 
 
 
-                    <div class="row">
+                    <div class="row Regular 400">
                         <div class="form-group col-md-6">
-                            <label class="m-title" for="phone">Mobile Number</label>
+                            <label class="m-title " for="phone">Mobile Number</label>
                             <input id="phone" type="tel" name="phone" required class="m-input" placeholder="01xxxxxxxx"
                                 value="">
                             <span id="phone_error" class="text-danger"
@@ -80,29 +89,31 @@
                         <!--amount-->
                         <div class="form-group col-md-6">
                             <label class="m-title" for="amount" style="border-color: #1c75bc;">Amount (TK)</label>
-                            <input type="number" name="amount" required class="m-input" id="amount" value="0" min="10" style="border-color: #1c75bc>
-                            <span id="amount_error" class="text-danger"
-                                style="padding-left: 5px;display: none; font-size: 12px;">Minimum amount is 10</span>
+                            <input type="number" name="amount" required class="m-input" id="amount" value="0" min="10"
+                                style="border-color: #1c75bc>
+                            <span id=" amount_error" class="text-danger"
+                                style="padding-left: 5px;display: none; font-size: 8px;">Minimum amount is 10</span>
                         </div>
                     </div>
 
                     <!--purpose of payment-->
-                    <div class="form-group">
-                        <label class="m-title" for="remarks">Payment Reference</label>
+                    <div class="form-group Regular 400">
+                        <label class="m-title " for="remarks" style="color: rgb(0, 0, 0);">Vehicle /Invoice/ Referance
+                            ID Number</label>
                         <input id="remarks" type="text" name="remarks" class="m-input" value=" ">
                     </div>
 
                     <!--payment method-->
-                    <div class="mt-4">
-                        <h6 class="m-title">Choose Payment Method</h6>
+                    <div class="mt-4 Regular 400">
+                        <h6 class="m-title ">Choose Payment Method</h6>
                         <div class="plan cf">
                             <input type="radio" name="gw" id="bkash" value="bkash" checked><label class="four col"
                                 for="bkash"><img style="height: 38px;"
-                                    src="https://crm.autonemo.com.bd/images/coa_logos/bkash_logo.png"
+                                    src=""
                                     alt="bkash"></label>
                             <input type="radio" name="gw" id="nagad" value="nagad"><label class="four col"
                                 for="nagad"><img style="height: 32px;"
-                                    src="https://crm.autonemo.com.bd/images/coa_logos/nagad_logo.png"
+                                    src=""
                                     alt="nagad"></label>
 
                         </div>
@@ -110,7 +121,7 @@
                         <div class="plan cf" style="margin-top: 10px !important;">
                             <input type="radio" name="gw" id="sslCommerz" value="sslCommerz"><label
                                 style="margin-left: 0 !important;" for="sslCommerz"><img style="max-height: 45px;"
-                                    src="https://erp.autonemo.io/images/payment_logos_1/visa-mastercard-amex.png"
+                                    src=""
                                     alt="SSL"><b style="color: black"> Other Cards & MFS</b></label>
                         </div>
 
@@ -131,7 +142,7 @@
                         <br>
                     </div>
 
-                    <button type="submit" id="make_payment" class="btn btn-outline btn-error mt-3 w-100" 
+                    <button type="submit" id="make_payment" class="btn btn-outline btn-error mt-3 w-100"
                         style="background-color:#e65125; color: #ffffff">Make Payment
                     </button>
                 </form>
@@ -160,6 +171,7 @@
                 display: block;
                 float: left;
                 margin: 1% 0 1% 1.6%;
+                border-color: #1464be;
             }
 
             .col:first-of-type {
