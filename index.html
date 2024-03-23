@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dupno payment">
+    <meta name="description" content="Dupno Shop">
 
 
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -15,9 +15,9 @@
     <link rel="icon" href="https://dupno.com/wp-content/uploads/2019/10/fabicon-dupno.png" type="image/png">
 
 
-    <title>Payment Protal | Dupno </title>
+    <title>Payment Protal|Dupno </title>
     <!-- custom css -->
-    <link rel="stylesheet" type="text/css" href="styale.css">
+  
 
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,24 +116,12 @@
                 </button>
             </form>
 
-            <a href="#" id="bKash_button" style="display: none">bKash</a>
-
         </div>
 
 
     </div>
     <style>
-        /* CONTAINERS */
-
-        .four {
-            /*width: 32.26%;*/
-            /*max-width: 32.26%;*/
-            width: 49% !important;
-            display: flex !important;
-            justify-content: center !important;
-            align-items: center !important;
-        }
-
+    
         /* COLUMNS */
 
         .col {
@@ -143,72 +131,77 @@
             border-color: #1464be;
         }
 
-        .col:first-of-type {
-            margin-left: 0;
-        }
+        .m-body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #000000;
+}
 
-        /* CLEARFIX */
+.m-img-div{
+    padding: 20px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background: rgb(255, 255, 255);
+    opacity: 1.0;
+    z-index: 10;
+}
 
-        .cf:before,
-        .cf:after {
-            content: " ";
-            display: table;
-        }
+.m-img{
+    height: 60px;
+}
 
-        .cf:after {
-            clear: both;
-        }
+.m-content-div{
+    max-width: 550px;
 
-        .cf {
-            *zoom: 1;
-        }
+    padding: 25px 25px;
 
-        /* FORM */
+    border: 2px solid #1c75bc;
+    border-radius: 10px;
+}
 
-        .plan input {
-            display: none;
-        }
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 544px) {
+    .m-content-div{
+        border: none;
+    }
+}
+@media (max-width: 544px) {
+    .m-content-div{
+        border: none;
+    }
+}
 
-        .plan label {
-            position: relative;
-            color: #1464be;
-            /*background-color: #aaa;*/
-            font-size: 13px;
-            text-align: center;
-            height: 47px;
-            /*line-height: 40px;*/
-            display: block;
-            cursor: pointer;
-            border: 1px #1464be solid;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            border-radius: 5px;
-            font-family: 'Bai Jamjuree', sans-serif;
+.m-left-col{
+    text-align: left;
+    color: #272727;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 5px;
+}
 
-        }
+.m-right-col{
+    text-align: right;
+    color: #1c75bc;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
 
-        .plan input:checked+label,
-        input:checked+label,
-        input:checked+label {
-            border: 2px solid #1c75bc;
-            border-radius: 5px;
-        }
 
-        .plan input:checked+label:after,
-        input:checked+label:after,
-        input:checked+label:after {
-            /*content: "\2713";*/
-            width: 20px;
-            height: 20px;
-            line-height: 20px;
-            border-radius: 5px;
-            border: 2px solid #1c75bc;
-            z-index: 999;
-            position: absolute;
-            top: -10px;
-            right: -10px;
-        }
+.m-title{
+    font-size: 12px;
+    font-weight: 600px;
+}
+
+.m-input{
+    background: #d6daea;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
     </style>
 
     
